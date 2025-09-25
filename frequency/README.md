@@ -25,9 +25,11 @@ sort --numeric-sort --reverse |
 head --lines 100 # adjust this value to select more or fewer of the most often used words
 ```
 
+## Results
+
 So, for a courpus of 1,670,647 words from Project Gutenberg,
 excluding the English text in the headings and the like (this is why we match the words to a list of allowed words),
-this bash script produces the following results:
+this methods produces the following 100 most used Esperanto words:
 
 | Frequency | Percentage | Word |
 | --- | --- | --- |
